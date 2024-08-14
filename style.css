@@ -272,3 +272,8 @@ section p { font-family: "Playfair Display", serif;
         
 }
 
+/*PROPIEDADES ARCHIVO NUESTRO LUGAR EN EL MUNDO*/
+.h5carrousel{
+    display: flex;
+    font-size: 50rem;
+}
