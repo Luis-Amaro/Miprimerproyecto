@@ -294,3 +294,10 @@ section p { font-family: "Playfair Display", serif;
             text-align: center;
         }
      }
+     .enlacereflexion{
+        display: flex;
+    color: black;
+    justify-content: center;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+     }
