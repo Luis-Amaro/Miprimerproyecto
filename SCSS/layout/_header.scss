@@ -1,0 +1,124 @@
+
+* {
+    font-family: "Rubik", sans-serif;
+}
+header ul li {
+    list-style-type: none;
+   
+}
+
+.h1header{
+    color: yellow;
+    background-color: navy;
+    margin: 0rem 6rem 0rem 0rem;
+    width: 40%;
+    height: 9vh;
+    font-size: 1rem;
+}
+.logo-formulario{
+    @extend %activacionflex;
+   
+}
+.formularioindex{
+    width: 40%;
+    font-size: 1rem;
+    color: $colortexto;
+}    
+.contenedor-header {
+    background-image: url(../images/imagen-inicial.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:60vh;
+    position: relative; 
+}
+.oscurecerfondo{
+    @extend %fondooscuro;
+}
+.mainindex {
+    background-color: $colorfondo
+}
+.mainindex h2{
+    margin: 1rem;
+    color: $colorsecundario
+}
+.h2header1{
+    @extend %texto;
+    margin-top: 2rem;
+}
+.mainindex{
+  @extend %texto;
+}
+.menu{
+    @extend %activacionflex;
+    flex-direction: column;
+}
+.enlaces{
+    @extend %enlacesestilos;
+}
+.enlaces:hover{
+        transform:scale(1.1);
+        transition-duration: 2s;   
+}
+
+.titulodearchivosarticulos{
+    @extend %activacionflex;
+    @extend %titulos; 
+    margin: 0rem;
+    padding-top: 4rem;   
+}
+
+.imagenarticulos{
+    @include img-fondo(100%, 100%, no-repeat);
+    height: 60vh; 
+}
+.articulosarchivos{
+    @extend %activacionflex;
+    @extend %titulos;
+    margin: 0rem;
+}
+
+.titulodearchivos{
+    @extend %titulos;
+    margin: 0rem;
+}
+.h2lugar{
+    background-color: rgb(0, 162, 255);
+    margin: 0rem;
+}
+.imgbgreflexion{
+    @include img-fondo(100%, 100%, no-repeat);
+    height: 40vh; 
+}
+
+.enlacereflexion{
+    @extend %activacionflex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: rgb(0, 0, 128);
+}
+.enlacereflexion:hover{
+    transform:scale(1.1);
+    transition-duration: 2s;
+}
+
+.librosheader{
+    background-image: url(../../images/libroheader.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    margin: 0rem;
+}
+
+.titulodearchivoslibros{
+    @extend %activacionflex;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 0;   
+}
+.titulodearchivoscomunidad{
+    @extend %titulos;
+}

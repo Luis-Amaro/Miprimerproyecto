@@ -1,0 +1,38 @@
+%texto{
+    color: rgba(255, 255, 255, 0.884);
+    font-size: 1rem;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+%activacionflex{
+    display: flex;
+}
+
+%fondooscuro{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.315);
+}
+
+%enlacesestilos{
+    text-decoration: none;
+    gap: 0.5em;
+    font-size: 1rem;
+    color: $colortexto;
+    }
+
+%enlacesfooter{
+text-decoration: none;
+display: flex;
+justify-content: center;
+font-size: 1.5rem;
+color: $colorsecundario
+}
+%titulos{
+    background-color: navy;
+    color: $colorsecundario;
+    text-align: center; 
+}

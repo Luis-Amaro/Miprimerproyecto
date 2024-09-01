@@ -1,0 +1,12 @@
+@mixin img-fondo($alto, $ancho, $norepetir){
+    width: $ancho;
+    height: $alto;
+    background-repeat: $norepetir;
+}
+
+@mixin cards($ancho, $alto, $borde, $colorletra){
+    width: $ancho;
+    height: $alto;
+    border: $borde;
+    color: $colorletra;
+}

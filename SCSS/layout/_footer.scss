@@ -1,0 +1,12 @@
+footer{
+    background-color: $colorfondo;
+}
+.enlacesfooter{
+@extend %enlacesfooter
+}
+
+.enlacesfooter:hover{
+        transform:scale(1.1);
+        transition-duration: 2s;
+    
+}
