@@ -7,25 +7,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet"><!--Asi conecto el fuente traida de Google Font-->
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"> 
-   <link rel="stylesheet" href="style.css"><!--así conecto el archivo html con el de css-->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> 
+   <link rel="stylesheet" href="./CSS/style.css"><!--así conecto el archivo html con el de css-->
 </head>  
 <body><!--todo lo que pongamos aca es lo que va a ver el usuario (menos los comentarios)-->
 <header>
-    
+       
         <section class="contenedor-header">
+        <div class="oscurecerfondo">
         <div class="logo-formulario">
         <h1 class="h1header">LAZ Desarrollo Personal</h1>
-        <form action="form.php"method="POST"><!--el atributo method lo tenemos que agregar a mano-->
+        <form action="form.php"method="POST">
+        <!--el atributo method lo tenemos que agregar a mano-->
+        <section class="formularioindex">
         <label for="">Nombre y Apellido</label>
         <input type="text" name="Nombre y apellido" id="Nombre" placeholder="Luis Amaro">
         <label for="">Contraseña</label>
         <input type="password" name="Contraseña" id="Contraseña">
         <input type="submit" value="Registrarse">
+        </section>
         </form>
         </div>
      
-    <h2 class="h2header1">"Empieza el camino a tu mejor versión"</h2>
+    <h2 class="h2header1 fs-5">"Empieza el camino a tu mejor versión"</h2>
 
     <nav>
         <ul class="menu">
@@ -37,14 +42,15 @@
             <li><a class="enlaces" href="./pages/librosrecomendados.html">LIBROS RECOMENDADOS</a></li>
         </ul>
     </nav>
-   
-    </section>
-    </div>
+        </div> 
+        </section>
+    
+        
 </header>
 
 
 <main class="mainindex">
-<h2 class="h2main">Alguna buena frase de algun libro referente al desarrollo personal</h2> 
+<h2 class="h2main">"Tengo que estar dispuesto a abandonar lo que soy, para convertirme en lo que quiero ser" Albert Einstein</h2> 
 
 <section id="INICIO">
     <h3>COMIENZA HOY</h3>
@@ -58,7 +64,7 @@
     <p><strong>HAZ QUE ESTE CAMINO SEA EL QUE MEJOR SE APEGUE A TUS PRINCIPIOS Y VIVE BIEN, FELIZ Y EN PAZ CONTIGO MISMO</strong>. Se el <em>RESPONSABLE</em> de tu vida, porque déjame decirte una cosa, esto es inevitable, cuando cumples la mayoría de edad, pasas a ser el único responsable de todas tus acciones, de todas tus decisiones, no puede culpar a nadie, a ti te afectará para bien o para mal el camino que desees tomar!</p>
 
 </section>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </main>
 
 <Footer>
