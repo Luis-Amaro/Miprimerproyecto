@@ -8,8 +8,8 @@ header ul li {
 }
 
 .h1header{
-    color: yellow;
-    background-color: navy;
+    color: rgb(255, 255, 0);
+    background-color: rgb(0, 0, 128);
     margin: 0rem 6rem 0rem 0rem;
     width: 40%;
     height: 9vh;
@@ -39,7 +39,7 @@ header ul li {
     background-color: $colorfondo
 }
 .mainindex h2{
-    margin: 1rem;
+    margin-top: 1rem;
     color: $colorsecundario
 }
 .h2header1{
@@ -52,6 +52,7 @@ header ul li {
 .menu{
     @extend %activacionflex;
     flex-direction: column;
+
 }
 .enlaces{
     @extend %enlacesestilos;

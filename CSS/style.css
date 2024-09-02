@@ -1,21 +1,19 @@
 @media only screen and (min-width: 501px) {
   .logo-formulario {
-    display: flex;
-  }
-  .menu {
-    display: flex;
-    justify-content: space-between;
-  }
-  .cardsarticulos {
-    background-color: rgb(8, 2, 58);
-    color: rgba(255, 255, 255, 0.74);
-  }
-  section p {
-    font-family: "Playfair Display", serif;
-    color: rgba(255, 255, 255, 0.74);
-    font-size: 22px;
+    gap: 7rem;
   }
 }
+.cardsarticulos {
+  background-color: rgb(8, 2, 58);
+  color: rgba(255, 255, 255, 0.74);
+}
+
+section p {
+  font-family: "Playfair Display", serif;
+  color: rgba(255, 255, 255, 0.74);
+  font-size: 22px;
+}
+
 @media only screen and (min-width: 1024px) {
   .cardsarticulos {
     background-color: rgb(0, 0, 128);
@@ -76,8 +74,8 @@ header ul li {
 }
 
 .h1header {
-  color: yellow;
-  background-color: navy;
+  color: rgb(255, 255, 0);
+  background-color: rgb(0, 0, 128);
   margin: 0rem 6rem 0rem 0rem;
   width: 40%;
   height: 9vh;
@@ -104,7 +102,7 @@ header ul li {
 }
 
 .mainindex h2 {
-  margin: 1rem;
+  margin-top: 1rem;
   color: rgb(255, 255, 3);
 }
 
@@ -224,7 +222,6 @@ footer {
 }
 
 .mainlibros {
-  justify-content: space-between;
   gap: 2rem;
   padding: 2rem 2rem;
   background-color: rgba(0, 0, 255, 0.932);
@@ -268,6 +265,34 @@ footer {
 .formulariocomunidad {
   flex-direction: column;
   gap: 1rem;
+}
+
+@media only screen and (min-width: 501px) {
+  .logo-formulario {
+    gap: 7rem;
+  }
+}
+.cardsarticulos {
+  background-color: rgb(8, 2, 58);
+  color: rgba(255, 255, 255, 0.74);
+}
+
+section p {
+  font-family: "Playfair Display", serif;
+  color: rgba(255, 255, 255, 0.74);
+  font-size: 22px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .cardsarticulos {
+    background-color: rgb(0, 0, 128);
+    color: rgba(255, 255, 255, 0.74);
+  }
+  section p {
+    font-family: "Playfair Display", serif;
+    color: rgba(255, 255, 255, 0.74);
+    font-size: 22px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

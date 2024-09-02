@@ -1,13 +1,12 @@
 
 @media only screen and (min-width: 501px){
 .logo-formulario{
-    display: flex; 
+    gap:7rem;
 }
 .menu{
     display: flex;
-    justify-content: space-between;
 }
-
+}
 .cardsarticulos{ 
 background-color: rgb(8, 2, 58);
 color: rgba(255, 255, 255, 0.74);}
@@ -15,12 +14,11 @@ section p { font-family: "Playfair Display", serif;
     color: rgba(255, 255, 255, 0.74);
     font-size: 22px;}
 
-}
 
 
 
 @media only screen and (min-width: 1024px){
-.cardsarticulos{ background-color: rgb(0, 0, 128);
+    .cardsarticulos{ background-color: rgb(0, 0, 128);
         color: rgba(255, 255, 255, 0.74);}
  section p { font-family: "Playfair Display", serif;
             color: rgba(255, 255, 255, 0.74);
