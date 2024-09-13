@@ -11,19 +11,21 @@ header ul li {
     color: rgb(255, 255, 0);
     background-color: rgb(0, 0, 128);
     margin: 0rem 6rem 0rem 0rem;
-    width: 40%;
-    height: 9vh;
+    height: 100%;
     font-size: 1rem;
 }
 .logo-formulario{
     @extend %activacionflex;
+    width: 30%;
    
 }
-.formularioindex{
-    width: 40%;
-    font-size: 1rem;
-    color: $colortexto;
-}    
+
+.navbar{
+    text-align: center;
+    flex-direction: column;
+    gap: 1.5rem; 
+} 
+
 .contenedor-header {
     background-image: url(../images/imagen-inicial.jpg);
     width: 100%;
@@ -44,7 +46,7 @@ header ul li {
 }
 .h2header1{
     @extend %texto;
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 .mainindex{
   @extend %texto;
@@ -77,6 +79,7 @@ header ul li {
     @extend %activacionflex;
     @extend %titulos;
     margin: 0rem;
+   justify-content: center;
 }
 
 .titulodearchivos{
@@ -106,19 +109,20 @@ header ul li {
 }
 
 .librosheader{
-    background-image: url(../../images/libroheader.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
+    background-image: url(../images/libroheader.jpg);
     width: 100%;
-    margin: 0rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:60vh;
+    position: relative; 
 }
 
 .titulodearchivoslibros{
     @extend %activacionflex;
     text-align: center;
     color: rgb(255, 255, 255);
-    margin: 0;   
+    margin: 0;
+    padding-top:7rem;      
 }
 .titulodearchivoscomunidad{
     @extend %titulos;

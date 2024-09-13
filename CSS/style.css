@@ -1,6 +1,14 @@
 @media only screen and (min-width: 501px) {
-  .logo-formulario {
-    gap: 7rem;
+  .navbar {
+    font-display: flex;
+  }
+  .h1header {
+    width: 100%;
+  }
+  .contenedorlibros {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
   }
 }
 .cardsarticulos {
@@ -14,7 +22,7 @@ section p {
   font-size: 22px;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .cardsarticulos {
     background-color: rgb(0, 0, 128);
     color: rgba(255, 255, 255, 0.74);
@@ -33,7 +41,7 @@ section p {
   flex-direction: column;
 }
 
-.formulariocomunidad, .h2comunidad, .contenedorlibros, .mainlibros, .contenedorreflexion, .titulosarticulos, .titulodearchivoslibros, .enlacereflexion, .articulosarchivos, .titulodearchivosarticulos, .menu, .logo-formulario {
+.form, .formulariocomunidad, .h2comunidad, .contenedorlibros, .mainlibros, .contenedorreflexion, .titulosarticulos, .titulodearchivoslibros, .enlacereflexion, .articulosarchivos, .titulodearchivosarticulos, .menu, .logo-formulario {
   display: flex;
 }
 
@@ -41,7 +49,7 @@ section p {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.315);
+  background-color: rgba(0, 0, 0, 0.555);
 }
 
 .enlacescompra, .enlaces {
@@ -77,15 +85,18 @@ header ul li {
   color: rgb(255, 255, 0);
   background-color: rgb(0, 0, 128);
   margin: 0rem 6rem 0rem 0rem;
-  width: 40%;
-  height: 9vh;
+  height: 100%;
   font-size: 1rem;
 }
 
-.formularioindex {
-  width: 40%;
-  font-size: 1rem;
-  color: rgba(255, 255, 255, 0.938);
+.logo-formulario {
+  width: 30%;
+}
+
+.navbar {
+  text-align: center;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .contenedor-header {
@@ -98,7 +109,7 @@ header ul li {
 }
 
 .mainindex {
-  background-color: rgba(0, 0, 255, 0.932);
+  background-color: rgba(17, 17, 206, 0.932);
 }
 
 .mainindex h2 {
@@ -107,7 +118,7 @@ header ul li {
 }
 
 .h2header1 {
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 
 .menu {
@@ -133,6 +144,7 @@ header ul li {
 
 .articulosarchivos {
   margin: 0rem;
+  justify-content: center;
 }
 
 .titulodearchivos {
@@ -165,31 +177,32 @@ header ul li {
 }
 
 .librosheader {
-  background-image: url(../../images/libroheader.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100%;
+  background-image: url(../images/libroheader.jpg);
   width: 100%;
-  margin: 0rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  position: relative;
 }
 
 .titulodearchivoslibros {
   text-align: center;
   color: rgb(255, 255, 255);
   margin: 0;
+  padding-top: 7rem;
 }
 
 footer {
-  background-color: rgba(0, 0, 255, 0.932);
+  background-color: rgba(17, 17, 206, 0.932);
 }
 
-.enlacesfooter:hover {
-  transform: scale(1.1);
-  transition-duration: 2s;
+.mainindex {
+  padding: 2rem;
+  gap: 2rem;
 }
 
 .mainarticulos {
-  background-color: rgba(0, 0, 255, 0.932);
+  background-color: rgba(17, 17, 206, 0.932);
 }
 
 .cardsarticulos {
@@ -198,6 +211,9 @@ footer {
   border: solid;
   color: rgb(255, 255, 255);
 }
+.cardsarticulos p {
+  padding: 2rem;
+}
 
 .titulosarticulos {
   flex-direction: column;
@@ -205,11 +221,20 @@ footer {
 }
 
 .mainlugar {
-  background-color: rgba(0, 0, 255, 0.932);
+  background-color: rgba(17, 17, 206, 0.932);
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: auto;
+  grid-row: 2fr;
+  row-gap: 20px;
+}
+.mainlugar h3 {
+  text-align: center;
 }
 
 .mapa {
   width: 100%;
+  height: 100%;
 }
 
 .contenedorreflexion {
@@ -224,12 +249,13 @@ footer {
 .mainlibros {
   gap: 2rem;
   padding: 2rem 2rem;
-  background-color: rgba(0, 0, 255, 0.932);
+  background-color: rgba(17, 17, 206, 0.932);
 }
 
 .contenedorlibros {
   flex-direction: column;
   width: 100%;
+  gap: 2rem;
 }
 
 .cardslibros {
@@ -259,17 +285,32 @@ footer {
 }
 
 .maincomunidad {
-  background-color: rgba(0, 0, 255, 0.932);
+  background-color: rgba(17, 17, 206, 0.932);
 }
 
 .formulariocomunidad {
   flex-direction: column;
+  text-align: center;
+  padding: 2rem;
   gap: 1rem;
+  width: 80%;
+}
+
+.form {
+  justify-content: center;
 }
 
 @media only screen and (min-width: 501px) {
-  .logo-formulario {
-    gap: 7rem;
+  .navbar {
+    font-display: flex;
+  }
+  .h1header {
+    width: 100%;
+  }
+  .contenedorlibros {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
   }
 }
 .cardsarticulos {
@@ -283,7 +324,7 @@ section p {
   font-size: 22px;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .cardsarticulos {
     background-color: rgb(0, 0, 128);
     color: rgba(255, 255, 255, 0.74);

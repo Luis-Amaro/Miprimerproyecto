@@ -1,10 +1,19 @@
 
 @media only screen and (min-width: 501px){
-.logo-formulario{
-    gap:7rem;
+.navbar{
+font-display: flex;
+}
+.h1header{
+    width: 100%;
+}
+.contenedorlibros{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
 }
 
-}
+ }
+
 .cardsarticulos{ 
 background-color: rgb(8, 2, 58);
 color: rgba(255, 255, 255, 0.74);}
@@ -15,7 +24,8 @@ section p { font-family: "Playfair Display", serif;
 
 
 
-@media only screen and (min-width: 1024px){
+@media only screen and (max-width: 1024px){
+    
     .cardsarticulos{ background-color: rgb(0, 0, 128);
         color: rgba(255, 255, 255, 0.74);}
  section p { font-family: "Playfair Display", serif;
